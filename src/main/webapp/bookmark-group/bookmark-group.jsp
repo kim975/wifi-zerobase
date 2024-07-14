@@ -20,11 +20,11 @@
 %>
 <h1>와이파이 정보 구하기</h1>
 <div class="topnav">
-    <a class="active" href="/">홈</a>
+    <a href="/">홈</a>
     <a href="/wifi/history.jsp">위치 히스토리 목록</a>
     <a href="/wifi/load-wifi.jsp">Open API 와이파이 정보 가져오기</a>
     <a href="/bookmark/bookmark-list.jsp">즐겨 찾기 보기</a>
-    <a href="/bookmark-group/bookmark-group.jsp">즐겨 찾기 그룹 관리</a>
+    <a class="active" href="/bookmark-group/bookmark-group.jsp">즐겨 찾기 그룹 관리</a>
 </div>
 <div>
     <button onclick="location.href='/bookmark-group/bookmark-group-add.jsp'">북마크 그룹 이름 추가</button>
