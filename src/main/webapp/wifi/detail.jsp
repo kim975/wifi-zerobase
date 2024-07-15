@@ -17,6 +17,7 @@
 </head>
 <body>
 <%
+    request.setCharacterEncoding("utf-8");
     String manageNo = request.getParameter("manageNo");
     String lat = request.getParameter("lat");
     String lnt = request.getParameter("lnt");

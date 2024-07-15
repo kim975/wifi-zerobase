@@ -15,6 +15,7 @@
 </head>
 <body>
 <%
+    request.setCharacterEncoding("utf-8");
     BookMarkServiceImpl bookMarkService = new BookMarkServiceImpl();
     List<BookMarkResponseDto> bookMarkResponseDtoList = bookMarkService.selectBookMarkList();
 %>
@@ -31,7 +32,7 @@
         <tr>
             <th scope="col">ID</th>
             <th scope="col">북마크 이름</th>
-            <th scope="col">순서</th>
+            <th scope="col">와이파이명</th>
             <th scope="col">등록일자</th>
             <th scope="col">비고</th>
         </tr>

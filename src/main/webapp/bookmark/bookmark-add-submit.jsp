@@ -13,6 +13,7 @@
 </head>
 <body>
 <%
+    request.setCharacterEncoding("utf-8");
     String bookMarkSeq = request.getParameter("bookMarkSeq");
     String wifiManageNo = request.getParameter("wifiManageNo");
 

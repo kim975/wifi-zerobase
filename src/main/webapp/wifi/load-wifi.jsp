@@ -13,7 +13,7 @@
 </head>
 <body>
     <%
-
+        request.setCharacterEncoding("utf-8");
         WifiServiceImpl wifiService = new WifiServiceImpl();
         int wifiDetailTotalCount = wifiService.insertAllWifiDetail();
     %>

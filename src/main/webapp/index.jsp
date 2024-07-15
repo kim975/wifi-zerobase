@@ -12,6 +12,7 @@
 </head>
 <body>
     <%
+        request.setCharacterEncoding("utf-8");
         String lat = request.getParameter("lat");
         String lnt = request.getParameter("lnt");
 

@@ -13,6 +13,7 @@
 </head>
 <body>
 <%
+    request.setCharacterEncoding("utf-8");
     String bookMarkName = request.getParameter("bookMarkName");
     String bookMarkOrder = request.getParameter("bookMarkOrder");
 

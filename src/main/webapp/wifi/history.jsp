@@ -14,7 +14,7 @@
 </head>
 <body>
     <%
-
+        request.setCharacterEncoding("utf-8");
         String seq = request.getParameter("seq");
         WifiHistoryServiceImpl wifiHistoryService = new WifiHistoryServiceImpl();
 

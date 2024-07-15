@@ -15,6 +15,7 @@
 </head>
 <body>
 <%
+    request.setCharacterEncoding("utf-8");
     BookMarkServiceImpl bookMarkService = new BookMarkServiceImpl();
     List<BookMarkGroupResponseDto> bookMarkGroupResponseDtoList = bookMarkService.selectBookMarkGroupList();
 %>
