@@ -109,7 +109,7 @@ public class PublicWifiApiServiceImpl {
 
     private String getPublicWifiURLBuilder(int startNumber, int endNumber) throws UnsupportedEncodingException {
         StringBuilder sb = new StringBuilder("http://openapi.seoul.go.kr:8088");
-        sb.append("/" + URLEncoder.encode("447765796f7363693833474a435970", "UTF-8"));
+        sb.append("/" + URLEncoder.encode("", "UTF-8"));
         sb.append("/" + URLEncoder.encode("json", "UTF-8"));
         sb.append("/" + URLEncoder.encode("TbPublicWifiInfo", "UTF-8"));
         sb.append("/" + URLEncoder.encode(String.valueOf(startNumber), "UTF-8"));
